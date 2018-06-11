@@ -4,6 +4,7 @@
   "description": "redis common service",
   "main": "dist/index.js",
   "private": true,
+  "types": "types",
   "scripts": {
     "build": "rm -rf dist types && tsc"
   },
