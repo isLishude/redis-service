@@ -6,7 +6,8 @@
   "private": true,
   "types": "types",
   "scripts": {
-    "build": "rm -rf dist types && tsc"
+    "build": "rm -rf dist types && tsc",
+    "pub": "git push --all && git push --tags"
   },
   "repository": {
     "type": "git",
