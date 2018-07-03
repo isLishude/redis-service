@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const console_1 = require("console");
 const Redis = require("ioredis");
 const port = Number.parseInt(process.env.redisPort) || 6379;
-const host = process.env.redisIp || "127.0.0.1";
+const host = process.env.redisIp || process.env.redisHost || "127.0.0.1";
 const password = process.env.redisPassword || "";
 exports.RedisClient = new Redis(port, host, {
     keepAlive: 1,
