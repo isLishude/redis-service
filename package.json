@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://101.200.63.188/coinu/redis-common.git"
+    "url": "http://git.coinu.top/coinu/redis-common.git"
   },
   "author": "lishude",
   "license": "MIT",
